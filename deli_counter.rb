@@ -12,7 +12,8 @@ def line (queue_list)
 end 
 
 def take_a_number (queue_list, new_customer)
-    puts "Welcome, #{new_customer}. You are number #{queue_list.size + 1} in line."
+  queue_list.push(new_customer)
+  puts "Welcome, #{new_customer}. You are number #{queue_list.size + 1} in line."
 end 
 
 def now_serving
