@@ -20,4 +20,6 @@ def now_serving(queue_list)
   if queue_list.size > 0 
     puts "Currently serving #{queue_list[0]}."
     queue_list.shift
+  else 
+    puts 
 end 
