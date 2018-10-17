@@ -12,11 +12,7 @@ def line (queue_list)
 end 
 
 def take_a_number (queue_list, new_customer)
-  def output (new_customer, index)
-    puts "Welcome, #{new_customer}, You are number #{index + 1} in line."
-  end
-  output(new_customer, index)
-  queue_list << new_customer
+    puts "Welcome, #{new_customer}, You are number in line."
 end 
 
 def now_serving
